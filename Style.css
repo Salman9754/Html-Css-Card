@@ -1,0 +1,127 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(73, 254, 123, 1) 0%, rgba(68, 255, 172, 1) 19%, rgba(112, 188, 181, 1) 45%, rgba(203, 67, 64, 1) 78%, rgba(241, 18, 19, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.card {
+    width: 270px;
+    background-color: rgb(238, 237, 237);
+    border-radius: 5px;
+
+}
+
+.one {
+    background-color: #e6c7fd;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 12px;
+    border-radius: 1px;
+    font-size: 12px;
+}
+
+.pic {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sub {
+    width: 170px;
+    height: 170px;
+}
+
+.sub img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+
+}
+
+.days {
+    font-size: 12px;
+    color: grey;
+    font-weight: 500;
+}
+
+.amount {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+
+}
+
+.btn1 button {
+    padding: 10px 45px;
+    margin-left: 12px;
+    background-color: #dfdada;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 50px;
+    font-size: 12px;
+    color: grey;
+
+
+}
+
+.btn1 span {
+    line-height: 1.2;
+}
+
+.btn2 button {
+    padding: 10px 45px;
+    margin-right: 12px;
+    background-color: #b34bf8;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    width: 120px;
+    height: 50px;
+    font-size: 12px;
+}
+
+.icon {
+    display: flex;
+    gap: 3px;
+}
+
+.icon span {
+    line-height: 1;
+}
